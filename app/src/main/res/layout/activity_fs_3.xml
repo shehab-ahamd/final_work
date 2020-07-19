@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fs_3">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiri"
+        android:text="كابازيتاكسيل"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:text="بداية الفعالية :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="على الفور، ولكن قد تمر عدة أسابيع حتى يظهر التأثير الكامل."
+        android:textAlignment="viewEnd"
+
+        android:textColor="#090000"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textView32"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="مدة الفعالية :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView33"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="على الفور، ولكن قد تمر عدة أسابيع حتى الشعور بالتأثير الكامل."
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="تغذية :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="ليست هنالك أية تقييدات."
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="نسيان الجرعة : "
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="من غير المحتمل، لأن الدواء يعطى تحت رقابة صارمة من قبل أطباء مهنيين."
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="وقف الدواء :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="يعطى هذا الدواء تحت رقابة صارمة من قبل أطباء مهنيين. وقف العلاج يتم وفق تعليمات الطبيب المعالج."
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="20sp" />
+
+    <Button
+
+        android:id="@+id/buttonplus3"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:fontFamily="@font/amiri"
+        android:text="المزيد من المعلومات"
+        android:textSize="24sp"
+        android:layout_marginTop="80dp"/>
+</LinearLayout>

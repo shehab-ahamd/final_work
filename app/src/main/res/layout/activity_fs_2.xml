@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fs_2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/amiri"
+        android:text="كابازيتاكسيل"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_marginEnd="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="الأثار الجانبية :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginEnd="5dp"
+        android:id="@+id/textView37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="لا توجد أثار جانبية"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:textSize="18sp"
+        android:text="تعليمات تناول الدواء سيكلوفوسفاميد"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="طريقة التناول :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginEnd="5dp"
+        android:text="تسريب (Infusion) داخل الوريد."
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="عدد الجرعات :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="تسريب داخل الوريد لمدة ساعة واحدة، بوتيرة مرة واحدة كل 3 أسابيع."
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="20sp" />
+
+
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:text="الجرعة :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="25 ملغ لكل متر مربع من مساحة سطح الجسم، مرة واحدة كل 3 أسابيع بالدمج مع 10 ملغ بريدنيزون عن طريق الفم، يوميا."
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonplus2"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/amiri"
+        android:text="المزيد من المعلومات"
+        android:textSize="24sp" />
+</LinearLayout>

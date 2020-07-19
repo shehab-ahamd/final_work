@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".is_6">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amiri"
+        android:text="تأثيرات جانبية لدواء ميثوتريكسات"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="حراره:"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="- شيوع التاثير : دارج "
+
+        android:textAlignment="viewEnd"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="- ابلاغ الطبيب : في الحالات الحادة "
+
+        android:textAlignment="viewEnd"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="التوجه للمستشفى"
+
+        android:textAlignment="viewEnd"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginEnd="5dp"
+
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="نزيف غير طبيعي:"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        />
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="- شيوع التاثير : نادر "
+
+        android:textAlignment="viewEnd"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="- ابلاغ الطبيب : في كل حاله"
+
+        android:textAlignment="viewEnd"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="التوجه للمستشفى"
+
+        android:textAlignment="viewEnd"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="سعال:"
+        android:layout_marginEnd="5dp"
+
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        />
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="- شيوع التاثير : دارج "
+
+        android:textAlignment="viewEnd"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="- ابلاغ الطبيب : في الحالات الحادة "
+
+        android:textAlignment="viewEnd"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="التوجه للمستشفى"
+
+        android:textAlignment="viewEnd"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="ضيق في التنفس / صفير"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="- شيوع التاثير : دارج "
+
+        android:textAlignment="viewEnd"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="- ابلاغ الطبيب : في الحالات الحادة "
+
+        android:textAlignment="viewEnd"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="التوجه للمستشفى"
+
+        android:textAlignment="viewEnd"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/exit1"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/amiri"
+        android:text="العودة للصفحة الرئيسية "
+        android:textSize="24sp" />
+</LinearLayout>

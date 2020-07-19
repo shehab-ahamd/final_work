@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".js_1">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiri"
+        android:text="ميثوتريكسات"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        app:srcCompat="@drawable/ee" />
+
+
+
+    <TextView
+        android:layout_marginEnd="5dp"
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="معلومات :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="يمكن استخدام ميثوتريكْسات (Methotrexate)، دَواءٌ مُضادٌّ للأَورام، للعلاج في ثلاث حالات مختلفة:
+
+- التهاب المفاصل الروماتوئيدي (Rheumatoid Arthritis)
+
+- الصُّداف (Psoriasis)
+
+- لعلاج أنواع مختلفة من الأورام السرطانية"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:layout_marginEnd="5dp"/>
+
+    <Button
+        android:layout_marginTop="70dp"
+        android:id="@+id/buttonplus1"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:fontFamily="@font/amiri"
+        android:text="المزيد من المعلومات"
+        android:textSize="24sp" />
+</LinearLayout>

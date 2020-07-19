@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".ns_3">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiri"
+        android:text="ميثوتريكسات"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:text="بداية الفعالية :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="قد تمر بضعة أسابيع حتى الشعور بتأثير الدواء بالكامل.
+
+"
+        android:textAlignment="viewEnd"
+
+        android:textColor="#090000"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textView32"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="مدة الفعالية :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView33"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="عدة أسابيع ."        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="تغذية :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="ليست هنالك أية تقييدات.
+
+"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="نسيان الجرعة : "
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="عند نسيان تناول الجرعة، إذا كانت الجرعة:
+
+- أقراص: إذا مرت ساعتان على وقت تناول الجرعة الدوائية، يتوجب تناولها فور التذكّر. أما إذا مر أكثر من ساعتين، ينبغي ترك الجرعة المنسية وتناول الجرعة التالية في وقتها كالمعتاد. لا يجوز تناول جرعة مضاعفة.
+
+- حقن: من غير المحتمل نسيان تناول الحقنة، إذ يتم حقن المريض بالميثوتريكْسات على يد أطباء مختصين مهنيين بحرص بالغ."
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="وقف الدواء :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="يتم إيقاف العلاج وفق تعليمات الطبيب وبإشراف طبي فقط.
+
+.
+
+"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="20sp" />
+
+    <Button
+
+        android:id="@+id/buttonplus3"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:fontFamily="@font/amiri"
+        android:text="المزيد من المعلومات"
+        android:textSize="24sp" />
+</LinearLayout>

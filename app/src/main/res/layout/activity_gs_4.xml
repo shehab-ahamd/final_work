@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".gs_4">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amiri"
+        android:text="ميتوميسين C"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="جرعة زائدة :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="من غير المرجح حدوث ذلك، لأن هذا الدواء يعطى تحت مراقبة طبية مشددة بواسطة أطباء مختصين.
+
+"
+
+        android:textAlignment="viewEnd"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textView33"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="تحذيرات عند تناول الدواء سيكلوفوسفاميد
+"
+        android:textAlignment="center"
+        android:textColor="#FA000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="اثناء الحمل :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="أظهرت التجارب التي أجريت على الحيوانات أن هذا الدواء يسبب تشوهات في الأجنّة. يوصى بعدم الحمل خلال استعمال هذا الدواء. (D)
+
+"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="اثناء الرضاعة :"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+android:text="لم يثبت ان استعمال الدواء آمن خلال فترة الرضاعة, من المحتمل ان يؤثر الدواء بشكل سلبي على الاطفال. ينصح بعدم الارضاع.
+"
+        android:textAlignment="viewEnd"
+        android:textColor="#090000"
+        android:textSize="24sp"
+
+        />
+
+    <Button
+        android:id="@+id/exit1"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_marginTop="125dp"
+        android:fontFamily="@font/amiri"
+        android:text="المزيد من المعلومات"
+        android:textSize="24sp" />
+</LinearLayout>
